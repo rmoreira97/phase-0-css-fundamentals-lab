@@ -3,3 +3,72 @@ body {
   height: 100%;
   margin: 0;
 }
+
+ header { 
+  text-align: center;
+ }
+
+ nav { 
+  
+  text-align: center;
+
+ }
+
+ nav a {
+
+  padding:10px;
+  background-color: grey;
+  display: inline-block;
+  margin: 5px;
+  text-decoration: none;
+  color: white;
+
+
+ }
+
+ #featured-property {
+
+ text-align:center
+
+
+
+ }
+
+ #featured-property p {
+
+  width: 800px;
+  margin: 10px auto; 
+ }
+
+ #featured-property figure {
+ margin:0 auto;
+ max-width: 900px
+
+ }
+
+ #details {
+
+  display:flex;
+
+ }
+
+#details > div {
+  flex: 1; /* Each div occupies equal space in the flex container */
+  background-color: red; /* Set the background color for the divs */
+  text-align: center; /* Center the text within each div */
+  padding: 10px; /* Add padding to each div */
+}
+
+#details p {
+  margin: 10px 0; /* Add some vertical space around the paragraphs in the details section */
+}
+
+#featured-property figcaption {
+  font-size: 14px; /* Shrink the font size of the image caption */
+  text-align: center; /* Center the image caption */
+}
+  .centered-text {
+    text-align: center;
+    width: 25%;
+    margin: auto;
+}
